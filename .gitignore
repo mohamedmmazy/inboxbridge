@@ -1,0 +1,15 @@
+node_modules
+.next
+.vercel
+next-env.d.ts
+*.tsbuildinfo
+.DS_Store
+
+# secrets: never commit
+.env
+.env.*
+!.env.example
+
+# local agent tooling
+.claude
+skills-lock.json

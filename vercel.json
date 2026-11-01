@@ -1,0 +1,4 @@
+{
+  "crons": [{ "path": "/api/cron/dispatch", "schedule": "0 6 * * *" }],
+  "functions": { "src/app/api/mcp/route.ts": { "maxDuration": 60 } }
+}
